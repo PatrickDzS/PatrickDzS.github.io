@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    background: hsl(199, 78%, 86%);
+    overflow: hidden;
+    
+}
+
+/* Formatando Container*/
+#container{
+    /*border: 1px solid red;*/
+    width: 320px;
+    height: 420px;
+    margin: 35px auto;
+}
+
+/* Formatando Imagem*/
+#codigo img{
+    width: 320px;
+    border-radius: 10px;
+
+}
+
+/* Formatando Borda branca */
+#baixo{
+    border-radius: 15px;
+    background: #fff;
+    width: 320px;
+    height: 470px;
+    padding: 18px;
+}
+
+/* Formatando os paragrafos */
+#paragrafos p{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#paragrafos #titulo{
+    font-weight: bold;
+}
+
+#paragrafos #cinza{
+    color: hsla(210, 2%, 42%, 0.644)
+}
+
+
+/* Rodape */
+#rodape{
+    width: 320px;
+    margin: 130px auto;
+}
+
